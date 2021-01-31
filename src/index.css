@@ -132,11 +132,16 @@ Pagination
   text-align: center;
   margin: 4rem 0 6rem 0;
 }
+.section-title h1 {
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  font-weight: 200;
+}
 .underline {
-  width: 8rem;
+  width: 18rem;
   height: 0.25rem;
   background: var(--clr-primary-5);
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 .followers {
   width: 90vw;
@@ -175,7 +180,7 @@ Pagination
 }
 
 .btn {
-  padding: 0.35rem 0.75rem;
+  padding: 0.45rem 0.75rem;
   letter-spacing: 1.6px;
   font-size: 0.75rem;
   color: var(--clr-white);
